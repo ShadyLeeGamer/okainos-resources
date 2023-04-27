@@ -1,0 +1,84 @@
+<html>
+<title>ASO 2 </title>
+
+<head>
+<img src="media/logo.png">
+</head>
+
+
+<body style="max-width: 75%;">
+<h1>
+Getting started:
+</h1>
+<p>
+You can quickly add ASO to your game by going to the toolbar on the top of unity, press "ASO/New ASO Object"
+It will add an ASO object to your scene named "ASO" with the main ASO script and the ASO api.
+ASO is designed to be highly maluable so try things! If you just want it to work read the guide.
+If you have any questions or dont know what something is, most every setting has an IN DEPTH tooltip to read!
+Just hover over the option to view.
+<br>*Check out the awesome new editor window!*
+</p>
+
+<h1>
+USE THE API!
+</h1>
+<p>
+ASO is a powerful tool on its own, however it most likley wont have everything you need for your game out of the box.
+You can use the api to have aso call functions on custom scripts at certain levels or have it enable and disable gameobjects all together.
+</p>
+
+<div style="background-color: #223;width:1000px;color:#EEE;">
+using ASO2Api;<br><br>
+<div>//Create an instance</div>
+ASOApi aso;<br><br>
+<div>//To get a copy of aso run this in your start function</div>
+void Start () {<br>
+<DD>aso = GameObject.FindObjectOfType (typeof(ASOApi)) as ASOApi;<br></dd>
+}<br><br>
+<div>//To add a custom call function, here is an example that will call the function "function" on this gameObject below a threshold of 0.4 only once</div><br>
+<dd>aso.addCustom_callFunction (this.gameObject, 0.4f, "function", ASOCustom.thresholdDirection.CallBelow, true);</dd>
+</div>
+
+<h1>
+Best practices
+</h1>
+
+<h3>
+Min/Max settings
+</h3>
+<p>
+Generally you want to set your minimums to the lowest quality you would like your game to run at, and set your maximums to the highest. You also want the average computer to hit about a 0.5 on the level.
+You also want any value inbetween 0 and 1 to look like how you would want low, medium, or high settings. You also, as a developer want to make sure that the framerate changes to be linear,
+meaning that 0.5 will be similar fps difference from 0.6 or 0.4, not only is this better for end users, it also makes the ASO auto level function much more stable.
+</p>
+
+<h3>
+Minimizing the back and forth effect
+</h3>
+<p>
+The back in forth effect is when ASO auto level adjusts one way, then your framerate increases or lowers by a lot more than expacted, meaning you probably have lots of custom api calls on the same level, or poorly setup min/maxes.
+Then it under or over compensates and it repeats. As the deveoper I have done many things to try and prevent such behaivors, however you can prevent this behaivor, to help you as a developer I have provided this list of things to do.
+</p>
+
+<UL>
+<LI> Follow the setting min/max tips ( this does a lot! )
+<LI> Distribute api call levels if possible. For example: 0.8, 0.85, 0.89
+<LI> Follow the api function guide
+<LI> Increase the thresholds slightly (1-2fps), test and repeat
+<LI> Increase smoothed fos frames (5-10fps), test and repeat
+<LI> Reduce agressiveness (2-10), helps a lot with over shooting, test and repeat
+<LI> Try different FPSTypes (found in other settings catagory)
+</UL>
+
+
+<h3>
+Api function guide
+</h3>
+
+<p>
+When creating api to reduce the back and forth effect when using function calls, if it causes a large dip or increase in framerate you should set the on and off at different thresholds, like on at 0.7 and off at 0.5
+This reduces the back and forth effect and is just in general a smart thing todo if you are using auto level. ASO is designed to be as flexible as possible for the user so go ahead and mess around.
+</p>
+
+</body>
+</html>

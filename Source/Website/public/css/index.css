@@ -1,0 +1,255 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none !important;
+color : white;
+}
+
+body{
+
+  background-color: #2F77BD
+}
+
+.header{
+  background-color: #332E33
+}
+/* NAVIGATION */
+.navSIT {
+position:static; z-index:5; left:0; top:0;
+width:100%; height:60px;
+background:#332E33; /* MODIFIABLE */
+  padding-top: 25px;
+  text-align: center;
+}
+/* LIENS NAVIGATION */
+.navSIT a{
+position:static;
+padding-left: 2%;
+text-decoration: none;
+text-transform:uppercase; font-size:18px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+color:white; /* MODIFIABLE */
+transition:all .25s linear; -webkit-transition:all .25s linear;
+}
+/* SURVOL LIEN NAVIGATION */
+.navSIT a:hover {
+color:#BC96FF; /* MODIFIABLE */
+}
+html {
+  scroll-behavior: smooth;
+}
+#closedBetaMessage {
+
+}
+.flag{
+  height: 15px;
+}
+.socialIcon{
+  height: 20px;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0px;
+  align-self: center;
+}
+.connection{
+  position: absolute;
+  right: 0;
+}
+.AccountIcon{
+height: 20px;
+width: auto;
+  margin-top:-20px;
+}
+.background{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.logoOnBackground{
+  width: 50%;
+    position: absolute;
+    padding-top:10%;
+    padding-left:25%;
+  z-index: 3;
+}
+.BodyTextUnderLogo{
+  padding-top : 75%;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Rubik', sans-serif;
+  color:white;
+  text-align: center;
+}
+.SimpleBodyText{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Rubik', sans-serif;
+  color:white;
+  text-align: center;
+}
+.SimpleBodyTextNoAlign{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Rubik', sans-serif;
+  color:white;;
+}
+.Hook{
+  position:inherit;
+  text-align: center;
+  text-decoration: none;
+  font-size:30px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+  color:white; /* MODIFIABLE */
+  padding-bottom: 40px;
+}
+.Title{
+  position:inherit;
+  text-decoration: none;
+  font-size:30px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+  color:white; /* MODIFIABLE */
+  padding: 20px;
+}
+.HebrewTitle{
+  position:inherit;
+  text-align: right;
+  text-decoration: none;
+  font-size:30px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+  color:white; /* MODIFIABLE */
+  padding-bottom: 40px;
+}
+.BaseTitle{
+  position:inherit;
+  text-decoration: none;
+  font-size:20; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+  color:white;
+  padding-right: 10px;/* MODIFIABLE */
+}
+.WaveSeperator{
+  padding: 15px;
+  height:15px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Display-container{
+  position: relative;
+}
+.Display-container .mySlides {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Display-container .leftButton{
+  position: absolute;
+    top: 50%;
+      left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Display-container .rightButton{
+  position: absolute;
+    top: 50%;
+      left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Input {
+    border-radius: 30px;
+    background: #ffffff;
+    padding: 10px;
+    width: 400px;
+    height: 2px;
+}
+.Tribes{
+
+}
+.EachTribe{
+padding:5%;
+}
+.TribesIcon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0px;
+  align-self: center;
+}
+.TribesTitle{
+  position:relative;
+  text-decoration: none;
+  font-size:25px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+  color:white; /* MODIFIABLE */
+text-align: center;
+}
+.TribesText{
+  position:relative;
+  text-decoration: none;
+  font-size:20px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+  color:white; /* MODIFIABLE */
+  text-align: center;
+}
+.FooterText{
+  padding-top: 5%;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color:white;
+}
+.CollectionButton{
+  font-size:20px; font-family: 'Quicksand', sans-serif;
+  background-color: #6832CA ;
+  border: none;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+@media screen and (min-width:1024px){
+.mySlides{
+  width: 1024px;
+}
+
+.Mobile{
+  display: none;
+}
+.Dekstop{
+  padding-left: 5%;
+}
+}
+
+@media screen and (max-width:1024px){
+  .mySlides{
+    width: 100%;
+  }
+  .CardExemple{
+    width: 100%;
+    height: auto;
+  }
+  .Mobile{
+
+  }
+  .Dekstop{
+    display: none;
+  }
+}

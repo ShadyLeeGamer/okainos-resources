@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4893374739968938434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3131872312917670179}
+  - component: {fileID: 8117947362623047691}
+  - component: {fileID: 591540649982606482}
+  m_Layer: 0
+  m_Name: Simple performence Hack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3131872312917670179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4893374739968938434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8117947362623047691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4893374739968938434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6212154809446ae49bab89a3587c231b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cameras: []
+  Terrains: []
+  setCamerasOnStart: 1
+  setTerrainsOnStart: 1
+  CameraRenderDistance: 1
+  minCameraRenderDistance: 1
+  maxCameraRenderDistance: 63
+  ShadowDistance: 1
+  minShadowDistance: 1
+  maxShadowDistance: 200
+  PixelLightCount: 1
+  minPixelLightCount: 1
+  maxPixelLightCount: 15
+  ShadowResolution: 1
+  minShadowResolution: 0
+  maxShadowResolution: 4
+  ShadowType: 1
+  minShadowType: 0
+  maxShadowType: 1
+  LodBias: 1
+  minLodBias: 0.3
+  maxLodBias: 1.2
+  GlobalTextureLimit: 1
+  minGlobalTexureLimit: 0
+  maxGlobalTexureLimit: 3
+  AntiAliasing: 1
+  minAntiAliasing: 0
+  maxAntiAliasing: 3
+  RealtimeReflectionProbes: 1
+  RealtimeReflectionProbesThreshold: 0.7
+  SoftParticles: 1
+  SoftParticleThreshold: 0.25
+  DetailDistance: 1
+  minDetailDistance: 0
+  maxDetailDistance: 200
+  SoftVegitation: 1
+  SoftVegitationThreshold: 0.6
+  fpsType: 2
+  dontDestroyOnLoad: 1
+  aggressiveness: 100
+  deadZone: 10
+  disableVsync: 1
+  autoLevel: 1
+  DesiredFps: 60
+  currentLevel: 0.5
+  settleDeadZone: 10
+  isSettled: 0
+  saveLevelToConfig: 1
+  loadLevelFromConfig: 1
+  doDebug: 1
+  updateApiEvents: 1
+  resetCamsTerrainsOnLoad: 1
+  fpsListLength: 30
+  rawFps: 0
+  adjFps: 0
+  avgFps: 0
+--- !u!114 &591540649982606482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4893374739968938434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa27592eac5c5e04f82a2300c0508e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

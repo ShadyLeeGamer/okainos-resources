@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: a978bedc5ecd2425e95fb3ef9c757972
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8507230185232250723
+    second: Okainos Emoji_0
+  - first:
+      213: 2887226789884948549
+    second: Okainos Emoji_1
+  - first:
+      213: -2023047180157652435
+    second: Okainos Emoji_2
+  - first:
+      213: 5718846866821850709
+    second: Okainos Emoji_3
+  - first:
+      213: -2317253060054361536
+    second: Okainos Emoji_4
+  - first:
+      213: 2156170693136358355
+    second: Okainos Emoji_5
+  - first:
+      213: -2150256783011548858
+    second: Okainos Emoji_6
+  - first:
+      213: -5738930924027820643
+    second: Okainos Emoji_7
+  - first:
+      213: -1371374488640746135
+    second: Okainos Emoji_8
+  - first:
+      213: 8155847238205774733
+    second: Okainos Emoji_9
+  - first:
+      213: -1658211739244810815
+    second: Okainos Emoji_10
+  - first:
+      213: -7779647275714608859
+    second: Okainos Emoji_11
+  - first:
+      213: 7172425995318708957
+    second: Okainos Emoji_12
+  - first:
+      213: -2865464616449630790
+    second: Okainos Emoji_13
+  - first:
+      213: 3948023069136089913
+    second: Okainos Emoji_14
+  - first:
+      213: 7086185367097813225
+    second: Okainos Emoji_15
+  - first:
+      213: 1062547857853547973
+    second: Okainos Emoji_16
+  - first:
+      213: 7682318554279308034
+    second: Okainos Emoji_17
+  - first:
+      213: 7259827621972817260
+    second: Okainos Emoji_18
+  - first:
+      213: -6899146852496977870
+    second: Okainos Emoji_19
+  - first:
+      213: 5358407253465549163
+    second: Okainos Emoji_20
+  - first:
+      213: 4702788349424350555
+    second: Okainos Emoji_21
+  - first:
+      213: 5460176862034726915
+    second: Okainos Emoji_22
+  - first:
+      213: -9188107617472853459
+    second: Okainos Emoji_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Okainos Emoji_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 445
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367bf3db7c0cf0670800000000000000
+      internalID: 8507230185232250723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 445
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540751dd77d711820800000000000000
+      internalID: 2887226789884948549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 445
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22f8d6ee41bce3e0800000000000000
+      internalID: -2023047180157652435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_3
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 445
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556a5c5fcec6d5f40800000000000000
+      internalID: 5718846866821850709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 445
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ad5c48e9677dfd0800000000000000
+      internalID: -2317253060054361536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_5
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 445
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db108f42d14ced10800000000000000
+      internalID: 2156170693136358355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_6
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 445
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641f8b039d0c822e0800000000000000
+      internalID: -2150256783011548858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9541d21bb83b50b0800000000000000
+      internalID: -5738930924027820643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 297
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d098e1b26e7fce0800000000000000
+      internalID: -1371374488640746135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 297
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b1b930ad36f2170800000000000000
+      internalID: 8155847238205774733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_10
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 297
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd2eef6539dcf8e0800000000000000
+      internalID: -1658211739244810815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_11
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 297
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52102356504290490800000000000000
+      internalID: -7779647275714608859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_12
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 297
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddacfbc0173998360800000000000000
+      internalID: 7172425995318708957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_13
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 297
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd911cfc13db38d0800000000000000
+      internalID: -2865464616449630790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93377e850123ac630800000000000000
+      internalID: 3948023069136089913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 149
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8af621c00375260800000000000000
+      internalID: 7086185367097813225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 149
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c58638a5adeebe00800000000000000
+      internalID: 1062547857853547973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_17
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 149
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20be53fb5041d9a60800000000000000
+      internalID: 7682318554279308034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65324a02c610c460800000000000000
+      internalID: 7259827621972817260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230d9abad7e4140a0800000000000000
+      internalID: -6899146852496977870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69c0b8c103ec5a40800000000000000
+      internalID: 5358407253465549163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_21
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55b84d5619a34140800000000000000
+      internalID: 4702788349424350555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_22
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30013604de176cb40800000000000000
+      internalID: 5460176862034726915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okainos Emoji_23
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a48767dc84d7080800000000000000
+      internalID: -9188107617472853459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Okainos Emoji_2: -2023047180157652435
+      Okainos Emoji_5: 2156170693136358355
+      Okainos Emoji_18: 7259827621972817260
+      Okainos Emoji_7: -5738930924027820643
+      Okainos Emoji_17: 7682318554279308034
+      Okainos Emoji_15: 7086185367097813225
+      Okainos Emoji_14: 3948023069136089913
+      Okainos Emoji_10: -1658211739244810815
+      Okainos Emoji_16: 1062547857853547973
+      Okainos Emoji_1: 2887226789884948549
+      Okainos Emoji_3: 5718846866821850709
+      Okainos Emoji_0: 8507230185232250723
+      Okainos Emoji_21: 4702788349424350555
+      Okainos Emoji_13: -2865464616449630790
+      Okainos Emoji_19: -6899146852496977870
+      Okainos Emoji_4: -2317253060054361536
+      Okainos Emoji_9: 8155847238205774733
+      Okainos Emoji_8: -1371374488640746135
+      Okainos Emoji_22: 5460176862034726915
+      Okainos Emoji_23: -9188107617472853459
+      Okainos Emoji_20: 5358407253465549163
+      Okainos Emoji_11: -7779647275714608859
+      Okainos Emoji_12: 7172425995318708957
+      Okainos Emoji_6: -2150256783011548858
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

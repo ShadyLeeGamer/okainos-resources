@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!95 &256588034
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612655896656198413}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9311934d2c6a643129cf84978b3ad4e2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &5613745522074857618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3291264050303567544}
+  m_Layer: 0
+  m_Name: Sir Rain Battle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3291264050303567544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5613745522074857618}
+  m_LocalRotation: {x: 0.21551675, y: 0.020615678, z: -0.97440165, w: -0.06057289}
+  m_LocalPosition: {x: -1.4000006, y: 1.2999998, z: 0.1500032}
+  m_LocalScale: {x: 6.5, y: -6.5, z: -6.5}
+  m_Children:
+  - {fileID: 2101665155721060791}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.806, y: -24.995, z: -187.293}
+--- !u!1001 &1918573227910399580
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3291264050303567544}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.048
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_Name
+      value: Sir Rain
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852998152384534367, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852998152384534367, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.060183436
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852998152384534367, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0.05249858
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852998152384534367, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.0008453429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852998152384534367, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.4738494
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852998152384534367, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.46616435
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852998152384534367, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.08783822
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+--- !u!1 &1612655896656198413 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+  m_PrefabInstance: {fileID: 1918573227910399580}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2101665155721060791 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aad644354ce954c53bd3ff7a61a629fb, type: 3}
+  m_PrefabInstance: {fileID: 1918573227910399580}
+  m_PrefabAsset: {fileID: 0}

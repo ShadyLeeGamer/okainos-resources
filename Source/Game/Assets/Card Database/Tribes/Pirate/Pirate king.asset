@@ -1,0 +1,480 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2e3881dd9e73c8449172b132dba49b5, type: 3}
+  m_Name: Pirate king
+  m_EditorClassIdentifier: 
+  data:
+    name: Pirate king
+    id: Pirate king
+    price: 6
+    strength: 8
+    draw: -2
+    cardEffectDatas: []
+    effects: []
+    description: 'Boarding: On first turn, steal 2 strength and
+
+      take 2 of
+      price and give it to opponent.'
+    familly: 4
+    rarity: 3
+    cardEffects:
+      boost: []
+      summon: []
+      modify:
+      - tag: 2
+        conditions:
+          onTurn: []
+          vanish: []
+          forEvery: []
+          atLeast: []
+          whileOnBoard: []
+          boarding:
+          - tag: 5
+        subject: 1
+        valueToModify: 0
+        primaryStatDelta:
+          statToAffect: 1
+          deltaCode: +2
+        familyDelta: 0
+      shield: []
+      exchange: []
+      countAs: []
+      compare: []
+      steal:
+      - tag: 7
+        conditions:
+          onTurn: []
+          vanish: []
+          forEvery: []
+          atLeast: []
+          whileOnBoard: []
+          boarding:
+          - tag: 5
+        subject: 1
+        valueToSteal: 0
+        primaryStatDelta:
+          statToAffect: 0
+          deltaCode: -2
+      headsOrTails: []
+      copy: []
+      reset: []
+      cancel: []
+  cardEffectsEdit:
+  - effectTag: 7
+    boost:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 1
+      primaryStatDelta:
+        statToAffect: 0
+        deltaCode: 
+    summon:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      cardToSummon: 
+      summonedCardPrimaryStatDeltas: []
+    modify:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToModify: 0
+      primaryStatDelta:
+        statToAffect: 0
+        deltaCode: 
+      familyDelta: 0
+    shield:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      maxBlocks: 0
+    exchange:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToExchange: 0
+    countAs:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToCountAs: 0
+      cardQuanity: 0
+    compare:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      primaryStatsToCompare: 0
+    steal:
+      tag: 7
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding:
+        - tag: 5
+      subject: 1
+      valueToSteal: 0
+      primaryStatDelta:
+        statToAffect: 0
+        deltaCode: -2
+    headsOrTails:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      betForHeads:
+        valueToBet: 0
+        primaryStatDelta:
+          statToAffect: 0
+          deltaCode: 
+        forEach: 0
+        cardEffectsToApply:
+          boost: []
+          summon: []
+          modify: []
+          shield: []
+          exchange: []
+          countAs: []
+          compare: []
+          steal: []
+          headsOrTails: []
+          copy: []
+          reset: []
+          cancel: []
+      betForTails:
+        valueToBet: 0
+        primaryStatDelta:
+          statToAffect: 0
+          deltaCode: 
+        forEach: 0
+        cardEffectsToApply:
+          boost: []
+          summon: []
+          modify: []
+          shield: []
+          exchange: []
+          countAs: []
+          compare: []
+          steal: []
+          headsOrTails: []
+          copy: []
+          reset: []
+          cancel: []
+    copy:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+    reset:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToReset: 0
+    cancel:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToCancel: 0
+      specificCardEffectToCancel: 0
+    conditionsEdit:
+    - conditionTag: 5
+      onTurn:
+        tag: 0
+        turn: 
+      vanish:
+        tag: 0
+      forEvery:
+        tag: 0
+        forEveryValue: 0
+        no: 0
+        max: 0
+      atLeast:
+        tag: 0
+        atLeastValue: 0
+        no: 0
+      whileOnBoard:
+        tag: 0
+      boarding:
+        tag: 5
+  - effectTag: 2
+    boost:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 1
+      primaryStatDelta:
+        statToAffect: 0
+        deltaCode: 
+    summon:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      cardToSummon: 
+      summonedCardPrimaryStatDeltas: []
+    modify:
+      tag: 2
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding:
+        - tag: 5
+      subject: 1
+      valueToModify: 0
+      primaryStatDelta:
+        statToAffect: 1
+        deltaCode: +2
+      familyDelta: 0
+    shield:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      maxBlocks: 0
+    exchange:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToExchange: 0
+    countAs:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToCountAs: 0
+      cardQuanity: 0
+    compare:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      primaryStatsToCompare: 0
+    steal:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 1
+      valueToSteal: 0
+      primaryStatDelta:
+        statToAffect: 0
+        deltaCode: 2
+    headsOrTails:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      betForHeads:
+        valueToBet: 0
+        primaryStatDelta:
+          statToAffect: 0
+          deltaCode: 
+        forEach: 0
+        cardEffectsToApply:
+          boost: []
+          summon: []
+          modify: []
+          shield: []
+          exchange: []
+          countAs: []
+          compare: []
+          steal: []
+          headsOrTails: []
+          copy: []
+          reset: []
+          cancel: []
+      betForTails:
+        valueToBet: 0
+        primaryStatDelta:
+          statToAffect: 0
+          deltaCode: 
+        forEach: 0
+        cardEffectsToApply:
+          boost: []
+          summon: []
+          modify: []
+          shield: []
+          exchange: []
+          countAs: []
+          compare: []
+          steal: []
+          headsOrTails: []
+          copy: []
+          reset: []
+          cancel: []
+    copy:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+    reset:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToReset: 0
+    cancel:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToCancel: 0
+      specificCardEffectToCancel: 0
+    conditionsEdit:
+    - conditionTag: 5
+      onTurn:
+        tag: 0
+        turn: 
+      vanish:
+        tag: 0
+      forEvery:
+        tag: 0
+        forEveryValue: 0
+        no: 0
+        max: 0
+      atLeast:
+        tag: 0
+        atLeastValue: 0
+        no: 0
+      whileOnBoard:
+        tag: 0
+      boarding:
+        tag: 5
+  basicMaterial: {fileID: 2100000, guid: 7aa1516cb3e487144be4b7d24e0b62c1, type: 2}
+  skins: []
+  battlePrefab: {fileID: 5829173821519187069, guid: 8139fd23dc82446a1881c44bba452c9e, type: 3}
+  notes: "Boarding (first turn) Take 2 of strength - \nAnd Give 2 of it's cost to
+    the adversary card\r"

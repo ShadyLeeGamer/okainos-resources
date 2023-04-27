@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2e3881dd9e73c8449172b132dba49b5, type: 3}
+  m_Name: Emperor Cuttlefish
+  m_EditorClassIdentifier: 
+  data:
+    name: Emperor Cuttlefish
+    id: Emperor Cuttlefish
+    price: 3
+    strength: 5
+    draw: 0
+    effects:
+    - effect: 8
+      famillyOfEffect: 1
+      values: 01000000
+      effectIcon: {fileID: 0}
+    description: 'Modify strength by 1 for every cuttlefish death count.
+
+      Reset
+      counter.'
+    familly: 1
+    rarity: 3
+    cardEffects:
+      boost: []
+      summon: []
+      modify:
+      - tag: 2
+        conditions:
+          onTurn: []
+          vanish: []
+          forEvery:
+          - tag: 2
+            forEveryValue: 0
+            no: 1
+            max: -1
+          atLeast: []
+          whileOnBoard: []
+          boarding: []
+        subject: 0
+        valueToModify: 0
+        primaryStatDelta:
+          statToAffect: 0
+          deltaCode: +1
+        familyDelta: 0
+      shield: []
+      exchange: []
+      countAs: []
+      compare: []
+      steal: []
+      headsOrTails: []
+      copy: []
+      reset: []
+      cancel: []
+  cardEffectsEdit:
+  - effectTag: 2
+    boost:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      strengthDeltaCode: 
+    summon:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      cardToSummon: 0
+      specificCardToSummon: 
+      summonedCardPrimaryStatDeltas: []
+    modify:
+      tag: 2
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery:
+        - tag: 2
+          forEveryValue: 0
+          no: 1
+          max: -1
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToModify: 0
+      primaryStatDelta:
+        statToAffect: 0
+        deltaCode: +1
+      familyDelta: 0
+    shield:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      maxBlocks: 0
+    exchange:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToExchange: 0
+    countAs:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToCountAs: 0
+      cardQuanity: 0
+    compare:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      primaryStatsToCompare: 0
+    steal:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToSteal: 0
+      primaryStatDelta:
+        statToAffect: 0
+        deltaCode: 
+    headsOrTails:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      betForHeads:
+        valueToBet: 0
+        primaryStatDelta:
+          statToAffect: 0
+          deltaCode: 
+        forEach: 0
+        cardEffectsToApply:
+          boost: []
+          summon: []
+          modify: []
+          shield: []
+          exchange: []
+          countAs: []
+          compare: []
+          steal: []
+          headsOrTails: []
+          copy: []
+          reset: []
+          cancel: []
+      betForTails:
+        valueToBet: 0
+        primaryStatDelta:
+          statToAffect: 0
+          deltaCode: 
+        forEach: 0
+        cardEffectsToApply:
+          boost: []
+          summon: []
+          modify: []
+          shield: []
+          exchange: []
+          countAs: []
+          compare: []
+          steal: []
+          headsOrTails: []
+          copy: []
+          reset: []
+          cancel: []
+    copy:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+    reset:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToReset: 0
+    cancel:
+      tag: 0
+      conditions:
+        onTurn: []
+        vanish: []
+        forEvery: []
+        atLeast: []
+        whileOnBoard: []
+        boarding: []
+      subject: 0
+      valueToCancel: 0
+      specificCardEffectToCancel: 0
+    conditionsEdit:
+    - conditionTag: 2
+      onTurn:
+        tag: 0
+        specificTurn: 0
+      vanish:
+        tag: 0
+      forEvery:
+        tag: 2
+        forEveryValue: 0
+        no: 1
+        max: -1
+      atLeast:
+        tag: 0
+        atLeastValue: 0
+        no: 0
+      whileOnBoard:
+        tag: 0
+      boarding:
+        tag: 0
+  skins: []
+  notes: Boost itself for every cuttlefishes in the counter

@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Drawbot Basic
+  m_Shader: {fileID: 4800000, guid: f971a81cd2fdf4d618c05f5779c65eb7, type: 3}
+  m_ShaderKeywords: _LAYERMODE_LINEARDODGE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Background:
+        m_Texture: {fileID: 2800000, guid: 887b7f61a890440bebb80ae6921fe5d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foreground:
+        m_Texture: {fileID: 2800000, guid: 3596f3f235b86421e827325bbeb43c13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5d24f5d71f98044f3a6bbcb14be9f518, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 5d24f5d71f98044f3a6bbcb14be9f518, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Middleground:
+        m_Texture: {fileID: 2800000, guid: 5a1468faaf623466ba08eceaff7201d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stencil:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Subject:
+        m_Texture: {fileID: 2800000, guid: 7ab99b1d3a4624043817cfcf6037f261, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_5932a0cbddc3486c9414ea37794f9e5c: 1
+    - Vector1_f0b842bb8a804811a15a91f2620cb670: 0
+    - _AWB_Scale: 0.5
+    - _AWB_Strength: 0.1
+    - _AWB_XSpeed: 2.22
+    - _AWB_YSpeed: 0.27
+    - _AWS_Scale: 0
+    - _AWS_Strength: 0
+    - _AWS_XSpeed: 0
+    - _AWS_YSpeed: 0
+    - _AnimatedWarpBackgroundBool: 1
+    - _AnimatedWarp_Subject: 0
+    - _ColorMask: 15
+    - _EnableExternalAlpha: 0
+    - _FadingForce: 0.346
+    - _ForegroundBool: 1
+    - _LAYERMODE: 2
+    - _MiddlegroundBool: 0
+    - _Stencil: 0
+    - _StencilComp: 1
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _SubjectBool: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _GlobalOffset: {r: 0.19, g: -0.2, b: 0, a: 0}
+    - _GlobalTiling: {r: 0.69, g: 1.28, b: 0, a: 0}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

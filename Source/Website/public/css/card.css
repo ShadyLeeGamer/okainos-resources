@@ -1,0 +1,130 @@
+.CardIllustration{
+  width: 100%;
+  height: auto;
+}
+.Card{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width:1024px){
+  .CardName{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-decoration: none;
+    font-size:13px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+
+  }
+  .LongCardName{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-decoration: none;
+    font-size:11px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+
+  }
+  .CardDescription{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 120%);
+    text-decoration: none;
+    font-size:8px; font-family: 'Rubik', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+  }
+  .LongCardDescription{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 90%);
+    text-decoration: none;
+    font-size:8px; font-family: 'Rubik', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+  }
+}
+@media screen and (max-width:1024px){
+  .CardName{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-decoration: none;
+    font-size:13px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+
+  }
+  .LongCardName{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-decoration: none;
+    font-size:10px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+
+  }
+  .CardDescription{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 120%);
+    text-decoration: none;
+    font-size:8px; font-family: 'Rubik', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+  }
+  .LongCardDescription{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 90%);
+    text-decoration: none;
+    font-size:8px; font-family: 'Rubik', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+  }
+}
+@media screen and (max-width:720px){
+  .CardName{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 80%);
+    text-decoration: none;
+    font-size:8px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+
+  }
+  .LongCardName{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-decoration: none;
+    font-size:9px; font-family: 'Quicksand', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+
+  }
+  .CardDescription{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 120%);
+    text-decoration: none;
+    font-size:8px; font-family: 'Rubik', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+  }
+  .LongCardDescription{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 90%);
+    text-decoration: none;
+    font-size:8px; font-family: 'Rubik', sans-serif; /* MODIFIABLE */
+    color:white; /* MODIFIABLE */
+  }
+}
